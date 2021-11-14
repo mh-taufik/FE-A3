@@ -1,6 +1,6 @@
 import axios from 'axios';
 import React, { useEffect ,useState } from "react";
-import { ScrollView, View } from "react-native";
+import { ScrollView, View, FlatList } from "react-native";
 import Produk from './Produk';
 
 const ShowingList = () => {
@@ -21,7 +21,10 @@ const ShowingList = () => {
 
     return (
         <View style={{height: 500}}>
-            <ScrollView contentContainerStyle={{paddingVertical: 10}}>
+            {/* <FlatList
+                data={}
+            /> */}
+            {<ScrollView contentContainerStyle={{paddingVertical: 10}}>
                 {dataProduk.map(item => {
                     return <Produk
                     produkStok={item.stok}
@@ -30,7 +33,7 @@ const ShowingList = () => {
                     produkHarga={item.harga_produk}
                     produkRating={item.rating_produk}/>}
                 )}
-            </ScrollView>
+            </ScrollView>}
         </View>
     )
 }

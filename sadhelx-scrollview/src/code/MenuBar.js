@@ -36,7 +36,7 @@ const style = StyleSheet.create({
         flexDirection: 'row',
         width: 360,
         height: 100,
-        top: 0,
+        top: -30,
     },
     feed: {
         position: "absolute",
@@ -49,27 +49,28 @@ const style = StyleSheet.create({
         position: "absolute",
         width: 35,
         height: 36.81,
-        left: 94.73,
+        left: 100,
         top: 6
     },
     logo: {
         position: "absolute",
         width: 56.66,
         height: 59,
-        left: 152,
+        left: 180,
+
     },
     safety: {
         position: "absolute",
         width: 35,
         height: 36,
-        left: 233.51,
+        left: 280,
         top: 6
     },
     profile: {
         position: "absolute",
         width: 35,
         height: 36,
-        left: 300.8,
+        left: 347,
         top: 7
     },
     textFeed: {
@@ -96,7 +97,7 @@ const style = StyleSheet.create({
         fontStyle:'normal',
         fontWeight:'normal',
         color:'#9E9E9E',
-        left: 233,
+        left: 275,
         top: 40,
     },
     textProfile: {
@@ -105,7 +106,7 @@ const style = StyleSheet.create({
         fontStyle:'normal',
         fontWeight:'normal',
         color:'#9E9E9E',
-        left: 301,
+        left: 347,
         top: 40,
     },
 })
