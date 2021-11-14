@@ -6,7 +6,6 @@ import SearchBar from './code/SearchBar'
 import Produk from './code/Produk'
 import ShowingList from './code/Showinglist'
 
-
 const App = () => {
   return (
     <View style={style.page}>

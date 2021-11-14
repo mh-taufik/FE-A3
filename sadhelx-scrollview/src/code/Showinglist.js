@@ -21,9 +21,6 @@ const ShowingList = () => {
 
     return (
         <View style={{height: 500}}>
-            {/* <FlatList
-                data={}
-            /> */}
             {<ScrollView contentContainerStyle={{paddingVertical: 10}}>
                 {dataProduk.map(item => {
                     return <Produk
